@@ -1,0 +1,8 @@
+{
+    "label": "Core Concepts",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "Essential JavaScript concepts every developer should know"
+    }
+  }
