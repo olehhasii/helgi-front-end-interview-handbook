@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Welcome to the comprehensive Frontend Interview Handbook! This guide is designed to help you prepare for frontend developer interviews by covering all the essential topics you need to know.
 
-### What you'll need
+## What is this?
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+This handbook covers the fundamental concepts, advanced topics, and practical knowledge required for frontend development interviews. Whether you're a junior developer preparing for your first interview or a senior developer brushing up on concepts, this guide has something for you.
 
-## Generate a new site
+## Recommended order of revision
 
-Generate a new Docusaurus site using the **classic template**.
+1. **HTML/CSS** - Start with the basics of web markup and styling
+2. **JavaScript Core Concepts** - Master the fundamentals of JavaScript
+3. **React** - Learn modern frontend frameworks
+4. **General Web** - Understand web performance, security, and networking
+5. **Data Structures** - Essential algorithms and data structures
+6. **Design Patterns** - Common patterns used in frontend development
 
-The classic template will automatically be added to your project after you run the command:
+## Inspiration and useful resources
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [JavaScript.info](https://javascript.info/)
+- [React Documentation](https://react.dev/)
+- [Web.dev](https://web.dev/)
+- [Frontend Masters](https://frontendmasters.com/)
