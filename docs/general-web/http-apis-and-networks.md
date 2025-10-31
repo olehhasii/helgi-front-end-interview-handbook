@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # HTTP, APIs and Networks
 
+## Networks
+
 ### How Web Works?
 
 ### What is HTTP?
@@ -13,6 +15,8 @@ sidebar_position: 1
 ### What are HTTP methods (GET, POST, PUT, PATCH, DELETE)?
 
 ### What are HTTP status codes?
+
+### Client-Server Architecture
 
 ### What is the request–response cycle?
 
@@ -39,3 +43,14 @@ sidebar_position: 1
 ### What are the formats for data exchange between the front end and back end?
 
 ### What is GraphQL?
+
+## Browser rendering & Communication
+
+### What is SPA
+
+### What is SSR
+
+### What is SSG
+
+### How can you store data in browser?
+
