@@ -54,3 +54,7 @@ sidebar_position: 1
 
 ### How can you store data in browser?
 
+### What are cookies flags (secure, httpOnly, sameSite)?
+
+### Hash routing
+

@@ -215,6 +215,7 @@ console.log(addFive(3)); // 8 - inner function remembers x = 5
 ```
 #### Common Use Cases:
 **1. Data privacy / encapsulation (simulate private variables).**
+
 **2. Function factories (customized functions).**
 ```javascript
 function createMultiplier(factor) {
