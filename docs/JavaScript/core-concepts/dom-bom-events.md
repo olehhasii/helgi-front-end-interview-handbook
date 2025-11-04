@@ -533,6 +533,15 @@ btn.addEventListener("click", (event) => {
 | **Clipboard** | `copy`, `paste`, `cut`                                                               |
 | **Touch**     | `touchstart`, `touchmove`, `touchend`                                                |
 
+### What is the difference between `mouseenter` and `mouseover` event in JavaScript and browsers?
+#### `mouseenter` Event:
+- **Does not bubble**: The `mouseenter` event does not bubble. It is only triggered when the mouse pointer enters the element to which the event listener is attached, not when it enters any child elements.
+- **Triggered once**: The `mouseenter` event is triggered only once when the mouse pointer enters the element, making it more predictable and easier to manage in certain scenarios.
+#### `mouseover` Event:
+- **Bubbles up the DOM**: The `mouseover` event bubbles up through the DOM. This means that if you have an event listener on a parent element, it will also trigger when the mouse pointer moves over any child elements.
+- **Triggered multiple times**: The `mouseover` event is triggered every time the mouse pointer moves over an element or any of its child elements. This can lead to multiple triggers if you have nested elements.
+
+
 ### How to Create Custom Events in JavaScript
 Custom events are created using the **`CustomEvent`** constructor and dispatched with **`dispatchEvent()`**.
 
