@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # Web performance & Web Vitals
 
+### What usually reduces website performance the most?
+
 ### Web Vitals. How to measure them?
 
 ### What is TTI (Time to Interactive)? How to measure it?
