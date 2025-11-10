@@ -453,6 +453,50 @@ mutation {
 
 ## Browser, Browser rendering
 
+### Browser rendering step by step (HTML parsing, etc.)
+When you load a webpage, the browser performs a series of **well-defined steps** to transform raw HTML, CSS, and JavaScript into a fully rendered page on your screen.  
+
+#### 🧩 1. Loading Resources
+- The browser sends an **HTTP(S) request** to the server.  
+- The server responds with **HTML**, and the browser begins parsing it immediately.  
+- As it encounters external resources (CSS, JS, images, fonts, etc.), it starts **fetching them in parallel**.
+
+#### 🧱 2. Parsing HTML → Building the DOM
+- The browser **parses the HTML** line by line.  
+- Each tag (e.g., `<div>`, `<p>`, `<img>`) becomes a **DOM node** (Document Object Model).  
+- The DOM represents the **structure and content** of the document.
+
+#### 🎨 3. Parsing CSS → Building the CSSOM
+- All linked and inline stylesheets are downloaded and parsed.
+- The browser creates a CSS Object Model (CSSOM) — a tree representing all applied styles and their computed values.
+
+#### 4. Combining DOM + CSSOM → Render Tree
+- The Render Tree describes what will actually appear on the screen.
+- It excludes elements like `<head>` or display: none.
+- Each visible node has style information attached.
+
+#### 5. Layout (Reflow)
+- The browser calculates the size, position, and geometry of each element based on the Render Tree.
+- This step determines where and how big each element should be.
+
+#### 6. Painting
+- The browser fills in pixels (colors, borders, shadows, text, etc.) for each element.
+- The result is a set of paint instructions.
+
+#### 7. Compositing
+
+#### 🧾 Summary
+| Step            | Description                             |
+| --------------- | --------------------------------------- |
+| 1. Loading      | Fetch HTML and linked resources         |
+| 2. HTML Parsing | Build DOM tree                          |
+| 3. CSS Parsing  | Build CSSOM tree                        |
+| 4. Render Tree  | Combine DOM + CSSOM                     |
+| 5. Layout       | Calculate positions and sizes           |
+| 6. Paint        | Fill in visuals (colors, text, borders) |
+| 7. Composite    | Merge layers into final frame           |
+
+
 ### How can you store data in browser?
 | Storage Type | Capacity | Accessible From | Expiration | Data Type | Typical Use |
 |:--------------|:----------|:----------------|:------------|:------------|:-------------|
